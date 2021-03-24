@@ -1,3 +1,3 @@
-# Yattecast
+# Submits.life
 
-https://r7kamura.github.io/yattecast/
+https://submits.life
