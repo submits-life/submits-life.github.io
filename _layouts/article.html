@@ -28,19 +28,19 @@
               >
               </audio>
             </p>
-            <p class="text-right">
-              <small>
-                <a href="{{ page.audio_file_path | prepend:site.github.url }}">MP3ファイルをダウンロード</a>
-              </small>
-            </p>
+            <!-- <p class="text-right"> -->
+            <!--   <small> -->
+            <!--     <a href="{{ page.audio_file_path | prepend:site.github.url }}">MP3ファイルをダウンロード</a> -->
+            <!--   </small> -->
+            <!-- </p> -->
             <h2>
-              内容紹介
+              概要
             </h2>
             <p>
               {{ page.description }}
             </p>
             <h2>
-              出演者
+              話者
             </h2>
             <div class="article-actors">
               {% for actor_id in page.actor_ids %}
