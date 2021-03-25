@@ -9,7 +9,7 @@ actors:
     url: 
 author: abura
 description: 知的学習支援システムの研究分野に従事する若手による，研究・雑談なんでもありなポッドキャストです．
-description_long: 知的学習支援システムの研究分野に従事する若手による，研究・雑談なんでもありなポッドキャストです．
+description_long: 知的学習支援システムの研究分野に従事する若手による，研究・雑談なんでもありなポッドキャスト
 email: submits.life@gmail.com
 exclude:
   - docker
