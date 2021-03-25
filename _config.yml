@@ -1,16 +1,16 @@
 actors:
-  alice:
-    image_url: /images/actors/alice.png
-    name: alice
-    url: http://sns.example.com/alice
-  bob:
-    image_url: /images/actors/bob.png
-    name: bob
-    url: http://sns.example.com/bob
-author: alice
-description: Example description
-description_long: Example long description
-email: info@example.com
+  abura:
+    image_url: /images/actors/abu.png
+    name: abura
+    url: https://twitter.com/dbym4820
+  koike:
+    image_url: /images/actors/koike.png
+    name: koike
+    url: 
+author: abura
+description: 知的学習支援システムの研究分野に従事する若手による，研究・雑談なんでもありなポッドキャストです．
+description_long: 
+email: submits.life@gmail.com
 exclude:
   - docker
   - docker-compose.yml
@@ -20,14 +20,14 @@ exclude:
   - README.md
   - vendor
 google_analytics:
-hashtag: examplehashtag
+hashtag: submitslife
 itunes_podcast_url:
-keywords: comma,separated,keywords
+keywords: science, engineering, intelligent tutoriing system, learning, education, artificial intelligence, human-computer interaction
 language: ja
 markdown: kramdown
 permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Example title
-url: http://example.com
+title: Submits.life
+url: https://submits.life
