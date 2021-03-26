@@ -15,4 +15,16 @@
   <link rel="alternate" type="application/rss+xml" href="{{ site.github.url }}/feed.xml" />
   <link rel="stylesheet" href="{{ site.github.url }}/css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.23.4/mediaelementplayer.min.css">
+
+  {% if site.google_analytics %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SS3V72SP87"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-SS3V72SP87');
+  </script>
+  {% endif %}
 </head>
