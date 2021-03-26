@@ -7,9 +7,17 @@ actors:
     image_url: /images/actors/koike.png
     name: koike
     url: 
+  aikawa:
+    image_url: /images/actors/aikawa.png
+    name: aikawa
+    url: 
+  mogi:
+    image_url: /images/actors/mogi.png
+    name: mogi
+    url: 
 author: abura
 description: 知的学習支援システムの研究分野に従事する若手による，研究・雑談なんでもありなポッドキャストです．
-description_long: 知的学習支援システムの研究分野に従事する若手による，研究・雑談なんでもありなポッドキャスト
+description_long: Submits.life は，知的学習支援システムの研究分野に従事する若手による，研究・雑談なんでもありなポッドキャストです．
 email: submits.life@gmail.com
 exclude:
   - docker
@@ -20,6 +28,7 @@ exclude:
   - README.md
   - vendor
 google_analytics:
+twitter_account: submits_life
 hashtag: submitslife
 itunes_podcast_url:
 spotify_podcast_url: https://open.spotify.com/user/spb4ibwfa2kdj3murih6vgy2i
