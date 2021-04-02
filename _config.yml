@@ -6,7 +6,7 @@ actors:
   koike:
     image_url: /images/actors/koike.png
     name: koike
-    url: 
+    url: https://www.koike.app/
   aikawa:
     image_url: /images/actors/aikawa.png
     name: aikawa
@@ -16,8 +16,8 @@ actors:
     name: mogi
     url: 
 author: submits.life
-description: 知的学習支援システムの研究分野に従事する若手による，研究・雑談なんでもありなポッドキャストです．
-description_long: Submits.life は，知的学習支援システムの研究分野に従事する若手による，研究・雑談なんでもありなポッドキャストです．
+description: 知的学習支援システムの研究分野の若手による、研究・雑談なんでもありなポッドキャストです。
+description_long: Submits.life は、知的学習支援システムの研究分野に従事する若手による、研究・雑談なんでもありなポッドキャストです。
 email: submits.life@gmail.com
 exclude:
   - docker
