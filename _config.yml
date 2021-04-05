@@ -16,8 +16,8 @@ actors:
     name: mogi
     url:
 author: Submits.life
-description: 知的学習支援システムの研究分野の若手による、研究・雑談なんでもありなポッドキャストです。
-description_long: Submits.life は、知的学習支援システムの研究分野に従事する若手による、研究・雑談なんでもありなポッドキャストです。
+description: 知的学習支援システム（ITS）研究の若手による、研究・雑談なんでもありなポッドキャストです。
+description_long: Submits.life は、知的学習支援システム（ITS）研究の若手による、研究・雑談なんでもありなポッドキャストです。
 email: submits.life@gmail.com
 exclude:
   - docker
@@ -33,7 +33,7 @@ hashtag: submitslife
 itunes_podcast_url:
 spotify_podcast_url: https://open.spotify.com/user/spb4ibwfa2kdj3murih6vgy2i
 google_podcast_url: https://podcasts.google.com/feed/aHR0cHM6Ly9zdWJtaXRzLmxpZmUvZmVlZC54bWw?sa=X&ved=2ahUKEwiQt9yZt8zvAhVVA6YKHT_KDRkQ9sEGegQIARAC
-keywords: science, engineering, intelligent tutoriing system, learning, education, artificial intelligence, human-computer interaction
+keywords: science, engineering, intelligent tutoring system, learning, education, artificial intelligence, human-computer interaction
 language: ja
 markdown: kramdown
 permalink: /episode/:title

@@ -5,8 +5,9 @@ $color-text-light-primary: #fff;
 $color-text-light-secondary: rgba(255, 255, 255, 0.7);
 $color-text-light-hint: rgba(255, 255, 255, 0.5);
 
+$font-family: 'M PLUS Rounded 1c', sans-serif;
 //$font-family-monospace: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-$font-family-monospace: 'Kiwi Maru', serif;
+$font-family-monospace: $font-family;
 
 $width-gutter: 24px;
 $width-screen-extra-small-maximum: 767px;
