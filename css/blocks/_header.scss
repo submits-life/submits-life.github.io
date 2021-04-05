@@ -1,6 +1,5 @@
 .header {
-  background-color: #B56F24;
-  width: auto;
+  background-color: $base_color;
   height: auto;
   text-align: center;
 
@@ -20,7 +19,7 @@
 }
 
 .description {
-  background-color: #1E470A;
+  background-color: $accent_color;
   color: white;
   font-size: 1rem;
 
