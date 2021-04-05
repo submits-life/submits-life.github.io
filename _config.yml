@@ -10,12 +10,12 @@ actors:
   aikawa:
     image_url: /images/actors/aikawa.png
     name: aikawa
-    url: 
+    url:
   mogi:
     image_url: /images/actors/mogi.png
     name: mogi
-    url: 
-author: submits.life
+    url:
+author: Submits.life
 description: 知的学習支援システムの研究分野の若手による、研究・雑談なんでもありなポッドキャストです。
 description_long: Submits.life は、知的学習支援システムの研究分野に従事する若手による、研究・雑談なんでもありなポッドキャストです。
 email: submits.life@gmail.com
