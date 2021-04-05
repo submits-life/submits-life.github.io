@@ -4,13 +4,12 @@
   background-position: center;
 
   &-description {
-    color: $color-text-light-secondary;
+    color: $color-text-dark-secondary;
     font-size: 1.1rem;
   }
 
   &-heading {
-    color: $color-text-light-primary;
-    text-shadow: 0 5px 20px black;
+    color: $color-text-dark-primary;
     font-size: 3.5rem;
     font-weight: 800;
 
@@ -25,7 +24,7 @@
   }
 
   &-overlay {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.0);
     height: 100%;
     padding-bottom: 96px;
     padding-top: 96px;
