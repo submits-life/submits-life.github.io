@@ -17,7 +17,7 @@ actors:
     url:
 author: Submits.life
 description: AI・認知科学・教育をつなぐ知的学習支援システム（ITS）研究と雑談のポッドキャスト
-description_long: Submits.lifeでは、AI・認知科学・教育をつなぐ知的学習支援システム（ITS）という学際分野で研究する若手が、論文を投稿（submit）する人生（life）を通じて得たナイーブな視点をベースに、大阪と神奈川を繋いで、研究・雑談なんでもありなポッドキャストをお送りしています。
+description_long: Submits.lifeでは、AI・認知科学・教育をつなぐ知的学習支援システム（ITS）という学際分野で研究する若手が、論文を投稿（submit）する人生（life）を通じて感じたことや雑談など、なんでもありなポッドキャストを大阪と神奈川を繋いでお送りしています。
 email: submits.life@gmail.com
 exclude:
   - docker
