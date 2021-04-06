@@ -33,6 +33,7 @@ hashtag: submitslife
 itunes_podcast_url:
 spotify_podcast_url: https://open.spotify.com/show/0b7LNMF2f2Grd9UIJEmQl4
 google_podcast_url: https://podcasts.google.com/feed/aHR0cHM6Ly9zdWJtaXRzLmxpZmUvZmVlZC54bWw
+amazon_podcast_url:
 keywords: research,science,engineering,intelligent tutoring system,learning,education,educational technology,artificial intelligence,human-computer interaction,anime,manga,games
 language: ja
 markdown: kramdown

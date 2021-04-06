@@ -15,7 +15,7 @@
             コメント・メール
           </h1>
           <div class="footer-sections-element-description">
-            {{ site.title }} への感想や質問などは，Twitterでハッシュタグ <a href="https://twitter.com/search?q=%23{{ site.hashtag }}" target="_blank">#{{ site.hashtag }}</a> ，もしくは，<a href="/mail.html">メール</a> からお便りをお送りください．
+            {{ site.title }} への感想や質問などは、Twitterでハッシュタグ <a href="https://twitter.com/search?q=%23{{ site.hashtag }}" target="_blank">#{{ site.hashtag }}</a> 、もしくは、<a href="/mail.html">メール</a> からお便りをお送りください。
           </div>
           <div class="footer-twitter">
             <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.github.url }}">
@@ -32,7 +32,7 @@
             購読
           </h1>
           <div class="footer-sections-element-description">
-            新しいエピソードの配信を購読いただけます．
+            新しいエピソードの配信を購読いただけます。
           </div>
           <ul>
             {% if site.itunes_podcast_url %}
@@ -48,6 +48,11 @@
             {% if site.google_podcast_url %}
               <li>
                 <a href="{{ site.google_podcast_url }}" target="_blank">Google Podcast</a>
+              </li>
+            {% endif %}
+            {% if site.amazon_podcast_url %}
+              <li>
+                <a href="{{ site.amazon_podcast_url }}" target="_blank">Amazon Podcast</a>
               </li>
             {% endif %}
             <li>
@@ -68,3 +73,7 @@
 <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.23.4/mediaelement-and-player.min.js"></script>
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
