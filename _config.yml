@@ -40,5 +40,6 @@ permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Submits.life - AI・認知科学・教育をつなぐ知的学習支援システム（ITS）研究と雑談のポッドキャスト
+title: Submits.life
+subtitle: AI・認知科学・教育をつなぐ知的学習支援システム（ITS）研究と雑談のポッドキャスト
 url: https://submits.life
