@@ -18,6 +18,7 @@ actors:
 author: Submits.life
 description: AI・認知科学・教育をつなぐ知的学習支援システム（ITS）研究と雑談のポッドキャスト
 description_long: Submits.lifeでは、AI・認知科学・教育をつなぐ知的学習支援システム（ITS）という学際分野で研究する若手が、論文を投稿（submit）する人生（life）を通じて感じたことや雑談など、なんでもありなポッドキャストを大阪と神奈川を繋いでお送りしています。
+message: <p>質問・意見・感想などは、ぜひ、 <a href="https://marshmallow-qa.com/submits_life">マシュマロ<\a> か Twitterで ハッシュタグ#submitslife までお願いします。Submits.lifeのTwitterアカウントは <a href="https://twitter.com/submits_life">こちら<\a> です。</p>
 email: submits.life@gmail.com
 exclude:
   - docker
@@ -30,6 +31,7 @@ exclude:
 google_analytics: G-SS3V72SP87
 twitter_account: submits_life
 hashtag: submitslife
+marshmallow-qa: https://marshmallow-qa.com/submits_life
 itunes_podcast_url:
 spotify_podcast_url: https://open.spotify.com/show/0b7LNMF2f2Grd9UIJEmQl4
 google_podcast_url: https://podcasts.google.com/feed/aHR0cHM6Ly9zdWJtaXRzLmxpZmUvZmVlZC54bWw
