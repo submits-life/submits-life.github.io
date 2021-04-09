@@ -14,7 +14,7 @@ actors:
   mogi:
     image_url: /images/actors/mogi.png
     name: mogi
-    url:
+    url: https://twitter.com/tomo1238hi
 author: Submits.life
 description: AI・認知科学・教育をつなぐ知的学習支援システム（ITS）研究と雑談のポッドキャスト
 description_long: Submits.lifeでは、AI・認知科学・教育をつなぐ知的学習支援システム（ITS）という学際分野で研究する若手が、論文を投稿（submit）する人生（life）を通じて感じたことや雑談など、なんでもありなポッドキャストを大阪と神奈川を繋いでお送りしています。
