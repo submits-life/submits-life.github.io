@@ -11,7 +11,7 @@
     <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Technology</media:category>
     <language>{{ site.language }}</language>
     <itunes:author>{{ site.author }}</itunes:author>
-    <itunes:summary>{{ site.description_long | xml_escape }}</itunes:summary>
+    <itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
     <itunes:keywords>{{ site.keywords }}</itunes:keywords>
     <itunes:owner>
       <itunes:name>{{ site.author }}</itunes:name>
