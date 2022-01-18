@@ -1,16 +1,25 @@
 actors:
-  alice:
-    image_url: /images/actors/alice.png
-    name: alice
-    url: http://sns.example.com/alice
-  bob:
-    image_url: /images/actors/bob.png
-    name: bob
-    url: http://sns.example.com/bob
-author: alice
-description: Example description
-description_long: Example long description
-email: info@example.com
+  abura:
+    image_url: /images/actors/abura.png
+    name: abura
+    url: https://twitter.com/dbym4820
+  koike:
+    image_url: /images/actors/koike.png
+    name: koike
+    url: https://www.koike.app/
+  aikawa:
+    image_url: /images/actors/aikawa.png
+    name: aikawa
+    url:
+  mogi:
+    image_url: /images/actors/mogi.png
+    name: mogi
+    url: https://twitter.com/tomo1238hi
+author: Submits.life
+description: Submits.lifeは、4人くらいの知的学習支援システム研究者でお送りする研究と雑談のポッドキャストです。
+description_long: Submits.lifeでは、AI・認知・教育をまたぐ知的学習支援システム（ITS）の若手研究者が、感じたことや雑談など、なんでもありなポッドキャストを大阪と神奈川を繋いでお送りしています。
+message: <p>質問・意見・感想などは、ぜひ、 <a href="https://marshmallow-qa.com/submits_life">マシュマロ</a> か Twitterで ハッシュタグ#submitslife までお願いします。Submits.lifeのTwitterアカウントは <a href="https://twitter.com/submits_life">こちら</a> です。</p>
+email: submits.life@gmail.com
 exclude:
   - docker
   - docker-compose.yml
@@ -19,15 +28,21 @@ exclude:
   - LICENSE.txt
   - README.md
   - vendor
-google_analytics:
-hashtag: examplehashtag
-itunes_podcast_url:
-keywords: comma,separated,keywords
+google_analytics: G-SS3V72SP87
+twitter_account: submits_life
+hashtag: submitslife
+marshmallow-qa: https://marshmallow-qa.com/submits_life
+itunes_podcast_url: https://podcasts.apple.com/jp/podcast/id1563178169
+spotify_podcast_url: https://open.spotify.com/show/0b7LNMF2f2Grd9UIJEmQl4
+google_podcast_url: https://podcasts.google.com/feed/aHR0cHM6Ly9zdWJtaXRzLmxpZmUvZmVlZC54bWw
+amazon_podcast_url: https://music.amazon.co.jp/podcasts/3a550f9a-8293-49a9-90bf-e0d8a1436e29
+keywords: research,science,engineering,intelligent tutoring system,learning,education,educational technology,artificial intelligence,human-computer interaction,anime,manga,games
 language: ja
 markdown: kramdown
 permalink: /episode/:title
 sass:
   sass_dir: css
 timezone: Asia/Tokyo
-title: Example title
-url: http://example.com
+title: Submits.life
+subtitle: AI・認知・教育をまたぐ知的学習支援システム（ITS）研究と雑談のポッドキャスト
+url: https://submits.life

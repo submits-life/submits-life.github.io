@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang={{ site.language }}>
   {% include head.html %}
+
   <body>
     {% include header.html %}
     <main class="main">
@@ -18,44 +19,39 @@
           </header>
           <section class="card-body markdown">
             <p>
-              <audio
-                class="mejs-player"
-                controls=""
-                data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
-                preload="auto"
-                src="{{ page.audio_file_path | prepend:site.github.url }}"
-                width="100%"
-              >
+              <audio controls="" preload="auto" src="{{ page.audio_file_path | prepend:site.github.url }}" width="100%">
               </audio>
             </p>
-            <p class="text-right">
-              <small>
-                <a href="{{ page.audio_file_path | prepend:site.github.url }}">MP3ファイルをダウンロード</a>
-              </small>
-            </p>
+            <!-- <p class="text-right"> -->
+            <!--   <small> -->
+            <!--     <a href="{{ page.audio_file_path | prepend:site.github.url }}">MP3ファイルをダウンロード</a> -->
+            <!--   </small> -->
+            <!-- </p> -->
             <h2>
-              内容紹介
+              概要
             </h2>
             <p>
               {{ page.description }}
             </p>
             <h2>
-              出演者
+              話者
             </h2>
             <div class="article-actors">
               {% for actor_id in page.actor_ids %}
-                {% assign actor = site.actors[actor_id] %}
-                <a href="{{ actor.url }}" class="actor" target="_blank">
-                  <img src="{{ actor.image_url | prepend:site.github.url }}" alt="{{ actor.name }}" class="actor-image" width="72" height="72">
-                  <br>
-                  {{ actor.name }}
-                </a>
+              {% assign actor = site.actors[actor_id] %}
+              <a href="{{ actor.url }}" class="actor" target="_blank">
+                <img src="{{ actor.image_url | prepend:site.github.url }}" alt="{{ actor.name }}" class="actor-image"
+                  width="72" height="72">
+                <br>
+                {{ actor.name }}
+              </a>
               {% endfor %}
             </div>
             {{ content }}
           </section>
           <footer class="article-footer">
-            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.github.url }}{{ page.url }}&text={{ page.title }}">
+            <a class="twitter-share-button"
+              href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.github.url }}{{ page.url }}&text={{ page.title }}">
               Tweet
             </a>
           </footer>
@@ -64,4 +60,5 @@
     </main>
     {% include footer.html %}
   </body>
+
 </html>

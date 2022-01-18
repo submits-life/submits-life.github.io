@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="container">
+  <h1 class="container-title">
+    お便り・お問い合わせフォーム
+  </h1>
+
+  <form name='contact-form' action="https://script.google.com/macros/s/AKfycbzIzYAIfkcGkz0Ooz1NeBd1v6Kigts6JNt2nYZ-lAFFvGa3pouTAor2bZxS7Dlg766p/exec" method="post">
+    <div>
+      <label>お名前</label>
+    </div>
+    <div>
+      <input class='contact-form-name uk-input' name='name' size='30' type='text' value='' placeholder='匿名'/>
+    </div>
+    <div>
+      <label>お便り・お問い合わせ内容</label>
+    </div>
+    <div>
+      <textarea class='contact-form-message uk-textarea' name='message' rows='10' placeholder='本文'></textarea>
+    </div>
+    <p></p>
+    <input class='contact-form-button-submit uk-button uk-button-secondary' type='submit' value='送信'/>
+    <noscript><input type='hidden' name='noscript' type='text' value='true'/></noscript>
+  </form>  
+</div>

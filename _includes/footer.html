@@ -7,20 +7,24 @@
             {{ site.title }} とは
           </h1>
           <div class="footer-sections-element-description">
-            {{ site.title }} は、{{ site.description_long }}です。
+            {{ site.description_long }}
           </div>
         </section>
         <section class="column-small-4 footer-sections-element">
           <h1 class="footer-sections-element-heading">
-            #{{ site.hashtag }}
+            コメント・メール
           </h1>
           <div class="footer-sections-element-description">
-            {{ site.title }} への感想や質問などは、Twitterでハッシュタグ <a href="https://twitter.com/search?q=%23{{ site.hashtag }}" target="_blank">#{{ site.hashtag }}</a> をご利用ください。
+            {{ site.title }} への感想や質問などは、 <a href="{{ site.marshmallow-qa }}">マシュマロ</a> か、Twitterでハッシュタグ <a href="https://twitter.com/search?q=%23{{ site.hashtag }}" target="_blank">#{{ site.hashtag }}</a> 、もしくは、<a href="/mail.html">メール</a> からお便りをお送りください。
           </div>
           <div class="footer-twitter">
             <a class="twitter-share-button" href="https://twitter.com/intent/tweet?hashtags={{ site.hashtag }}&url={{ site.github.url }}">
               Tweet
             </a>
+	    <a class="twitter-follow-button" href="https://twitter.com/{{ site.twitter_account }}?ref_src=twsrc%5Etfw" data-show-count="false">
+	      Follow @{{ site.twitter_account }}
+	    </a>
+	    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
         </section>
         <section class="column-small-4 footer-sections-element">
@@ -28,42 +32,49 @@
             購読
           </h1>
           <div class="footer-sections-element-description">
-            新しいエピソードの配信を購読できます。
+            新しいエピソードの配信を購読いただけます。
           </div>
           <ul>
             {% if site.itunes_podcast_url %}
               <li>
-                <a href="{{ site.itunes_podcast_url }}" target="_blank">iTunesで購読</a>
+                <a href="{{ site.itunes_podcast_url }}" target="_blank">iTunes</a>
+              </li>
+            {% endif %}
+            {% if site.spotify_podcast_url %}
+              <li>
+                <a href="{{ site.spotify_podcast_url }}" target="_blank">Spotify</a>
+              </li>
+            {% endif %}
+            {% if site.google_podcast_url %}
+              <li>
+                <a href="{{ site.google_podcast_url }}" target="_blank">Google Podcast</a>
+              </li>
+            {% endif %}
+            {% if site.amazon_podcast_url %}
+              <li>
+                <a href="{{ site.amazon_podcast_url }}" target="_blank">Amazon Podcast</a>
               </li>
             {% endif %}
             <li>
-              <a href="http://subscribeonandroid.com/{{ site.github.url | remove: "https://" | remove: "http://" }}/feed.xml" target="_blank">Androidで購読</a>
+              <a href="http://subscribeonandroid.com/{{ site.github.url | remove: "https://" | remove: "http://" }}/feed.xml" target="_blank">Android</a>
             </li>
             <li>
-              <a href="https://push.dog/subscribe?url={{ site.github.url }}/feed.xml" target="_blank">Pushdogで購読</a>
-            </li>
-            <li>
-              <a href="{{ site.github.url }}/feed.xml" target="_blank">RSSで購読</a>
+              <a href="{{ site.github.url }}/feed.xml" target="_blank">RSS</a>
             </li>
           </ul>
         </section>
       </div>
     </div>
     <div class="footer-copyright">
-      © 2016 <a href="{{ site.github.url }}/">{{ site.title }}</a>
+      © 2021 <a href="{{ site.github.url }}/">{{ site.title }}</a>
     </div>
   </div>
 </footer>
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.18/dist/js/uikit-icons.min.js"></script>
+
+
 <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.23.4/mediaelement-and-player.min.js"></script>
-{% if site.google_analytics %}
-  <script type="text/javascript">
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', '{{ site.google_analytics }}', 'auto');
-    ga('send', 'pageview');
-  </script>
-{% endif %}

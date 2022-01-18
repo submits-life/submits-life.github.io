@@ -1,2 +1,5 @@
 /_site
 /.sass-cache
+run-local.sh
+
+.DS_Store

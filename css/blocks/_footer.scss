@@ -1,24 +1,24 @@
 .footer {
-  color: $color-text-dark-secondary;
-  font-size: 0.9rem;
-  padding-bottom: 64px;
-  padding-top: 64px;
+    color: $color-text-light-primary;
+    font-size: 0.9rem;
+    padding-bottom: 64px;
+    padding-top: 64px;
 
-  &-copyright {
-    text-align: center;
-  }
-
-  &-sections {
-    &-element {
-      margin-bottom: 24px;
-
-      &-heading {
-        font-size: 1.4rem;
-      }
+    &-copyright {
+	text-align: center;
     }
-  }
 
-  &-twitter {
-    margin-top: 0.4rem;
-  }
+    &-sections {
+	&-element {
+	    margin-bottom: 24px;
+
+	    &-heading {
+		font-size: 1.4rem;
+	    }
+	}
+    }
+
+    &-twitter {
+	margin-top: 0.4rem;
+    }
 }

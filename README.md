@@ -1,3 +1,4 @@
-# Yattecast
+# Submits.life
+https://submits.life
 
-https://r7kamura.github.io/yattecast/
+`bundle exec jekyll serve`

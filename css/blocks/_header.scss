@@ -1,33 +1,39 @@
 .header {
-  background-image: url(../images/artwork.jpg);
-  background-size: cover;
-  background-position: center;
+  background-color: $base_color;
+  height: auto;
+  text-align: center;
 
-  &-description {
-    color: $color-text-light-secondary;
-    font-size: 0.9rem;
+  img {
+    width: 85%;
+    height: auto;
   }
 
-  &-heading {
-    color: $color-text-light-primary;
-    text-shadow: 0 1px 5px black;
-    font-size: 2.5rem;
-    font-weight: 500;
-
-    a {
+  a {
       &,
       &:active,
       &:focus,
       &:hover {
         color: inherit;
       }
-    }
   }
+}
 
-  &-overlay {
-    background-color: rgba(0, 0, 0, 0.3);
-    height: 100%;
-    padding-bottom: 96px;
-    padding-top: 96px;
+.description {
+  background-color: $accent_color;
+  color: white;
+  font-size: 1rem;
+
+  h2 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    img {
+      width: 60%;
+      height: auto;
+    }
   }
 }
