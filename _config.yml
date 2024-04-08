@@ -17,7 +17,7 @@ actors:
     url: https://twitter.com/tomo1238hi
 author: Submits.life
 description: Submits.lifeは、4人くらいの知的学習支援システム研究者でお送りする研究と雑談のポッドキャストです。
-description_long: Submits.lifeでは、AI・認知・教育をまたぐ知的学習支援システム（ITS）の若手研究者が、感じたことや雑談など、なんでもありなポッドキャストを繋いでお送りしています。
+description_long: Submits.lifeでは、AI・認知・教育をまたぐ知的学習支援システム（ITS）の若手研究者が、感じたことや雑談など、なんでもありなポッドキャストをお送りしています。
 message: <p>質問・意見・感想などは、ぜひ、 <a href="https://marshmallow-qa.com/submits_life">マシュマロ</a> か Twitterで ハッシュタグ#submitslife までお願いします。Submits.lifeのTwitterアカウントは <a href="https://twitter.com/submits_life">こちら</a> です。</p>
 email: submits.life@gmail.com
 exclude:
