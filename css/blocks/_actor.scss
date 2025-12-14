@@ -10,11 +10,30 @@
     text-decoration: none !important;
   }
 
-  & + & {
+  &+& {
     margin-left: 1rem;
   }
 
   &-image {
     border-radius: 50%;
+    vertical-align: middle;
+
+    &-guest {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background-color: #e0e0e0;
+      color: #666;
+      font-size: 0.75rem;
+      font-weight: bold;
+      vertical-align: middle;
+    }
+  }
+
+  &-guest {
+    color: inherit;
   }
 }

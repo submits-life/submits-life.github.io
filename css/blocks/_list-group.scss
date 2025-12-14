@@ -16,10 +16,23 @@
 
     &-element {
       border-radius: 50%;
+      vertical-align: middle;
 
-      & + & {
+      &+& {
         margin-left: 4px;
       }
+    }
+
+    &-guest {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background-color: #e0e0e0;
+      color: #666;
+      font-size: 0.7rem;
+      font-weight: bold;
     }
   }
 }
