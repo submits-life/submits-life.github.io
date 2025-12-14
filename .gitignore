@@ -3,3 +3,4 @@
 run-local.sh
 
 .DS_Store
+.claude/*
